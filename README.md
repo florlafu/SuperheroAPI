@@ -1,4 +1,4 @@
-# PROYECTO TEST
+# SUPERHERO API
 ¡Hola!
 
 Este es un proyecto desarrollado con el objetivo de consumir los datos de una API de superheroes ([https://superheroapi.com/](https://www.superheroapi.com/)) y mostrar sus resultados en base a las busquedas del usuario. El proyecto fue desarrollado con JavaScript, HTML y CSS.
