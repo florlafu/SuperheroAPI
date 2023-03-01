@@ -1,0 +1,32 @@
+<html>    
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="../css/index.css">
+        <title>Superhero API</title>
+    </head>
+
+    <body>
+        <header>
+            <!-- Buscador y botón superior -->
+            <div><a href='/views/index.html'></a></div>
+            <h1 class="txt-bienvenido">¡Bienvenid@!</h1>
+            <p>Ingresá el nombre de un superheroe y comenzá tu busqueda</p>
+            <div class="search-container center">
+                
+                <form action="" id="search-form">
+                    <input type="text" id="search-data" placeholder="Ingrese un nombre" style="color: black;">                    
+                    <button class="btn-submit" id= "btn-submit" type="submit" role="button">Buscar</button>
+                </form>
+            </div>
+
+        </header>
+        
+
+        <!-- Resultados de la busqueda -->
+        <div id="result-container">
+            <div id='results'>        
+            </div>
+        </div>        
+        <script type="text/javascript" src="../js/index.js"></script>
+    </body>
+</html>
